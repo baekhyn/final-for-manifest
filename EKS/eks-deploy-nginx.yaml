@@ -15,15 +15,15 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: nginx
-        image: 133713477530.dkr.ecr.ap-northeast-2.amazonaws.com/nginx-eks
-        ports:
-          - containerPort: 80
-            name: nginx
-        resources:
-          requests:
-            memory: "300Mi"
-            cpu: "300m"
-          limits:
-            memory: "1Gi"
-            cpu: "1"
+        - name: nginx
+          image: 133713477530.dkr.ecr.ap-northeast-2.amazonaws.com/nginx-eks:test
+          ports:
+            - containerPort: 80
+              name: nginx
+          resources:
+            requests:
+              memory: '300Mi'
+              cpu: '300m'
+            limits:
+              memory: '1Gi'
+              cpu: '1'

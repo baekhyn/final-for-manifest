@@ -3,11 +3,11 @@ kind: Service
 metadata:
   name: tomcat-svc
 spec:
-  clusterIP: 172.20.200.200
+  clusterIP: 172.20.200.201
   ports:
-  - port: 8080
-    protocol: TCP
-    targetPort: 8080
+    - port: 8080
+      protocol: TCP
+      targetPort: 8080
   selector:
     app: tomcat
   type: ClusterIP
