@@ -15,17 +15,17 @@ spec:
         app: tomcat
     spec:
       containers:
-      - image: 133713477530.dkr.ecr.ap-northeast-2.amazonaws.com/tomcat
-        name: tomcat
-        ports:
-        - containerPort: 8080
+        - image: 133713477530.dkr.ecr.ap-northeast-2.amazonaws.com/tomcat:latest
           name: tomcat
-        resources:
-          requests:
-            memory: "300Mi"
-            cpu: "300m"
-          limits:
-            memory: "1Gi"
-            cpu: "1"
+          ports:
+            - containerPort: 8080
+              name: tomcat
+          resources:
+            requests:
+              memory: '300Mi'
+              cpu: '300m'
+            limits:
+              memory: '1Gi'
+              cpu: '1'
       imagePullSecrets:
         - name: regcred
