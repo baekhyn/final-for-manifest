@@ -6,7 +6,7 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: alb
     alb.ingress.kubernetes.io/scheme: internet-facing
-    alb.ingress.kubernetes.io/load-balancer-name: nginx-load-balancer
+    alb.ingress.kubernetes.io/load-balancer-name: nginx-load-balancer-final
     alb.ingress.kubernetes.io/subnets: subnet-0b7dae80e01d16c7a, subnet-09f76c3bb6c5832d6
     alb.ingress.kubernetes.io/target-type: ip
 spec:
