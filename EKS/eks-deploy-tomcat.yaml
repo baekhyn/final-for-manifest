@@ -15,7 +15,7 @@ spec:
         app: tomcat
     spec:
       containers:
-        - image: 133713477530.dkr.ecr.ap-northeast-2.amazonaws.com/tomcat:v23
+        - image: 133713477530.dkr.ecr.ap-northeast-2.amazonaws.com/tomcat:v24
           name: tomcat
           ports:
             - containerPort: 8080
