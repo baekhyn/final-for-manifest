@@ -1,11 +1,11 @@
-# for-manifest
+# final-for-manifest
 
 argoCD 배포를 위한 레포입니다.
 
 ## 구성도
 
 ![jenkins argoCD workflow](./CI-CD%20workflow.png)
-[jenkins 레포 링크](https://github.com/baekhyn/for-pipeline)
+[jenkins 레포 링크](https://github.com/baekhyn/final-for-pipeline)
 
 ## 설명
 
